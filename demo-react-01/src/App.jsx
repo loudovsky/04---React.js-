@@ -1,6 +1,10 @@
 
 import './App.css'
 import LeapYear from './components/LeapYear/LeapYear'
+import PeopleTable from './components/PeopleTable/PeopleTable'
+
+import peopleData from './data/people.json';
+
 function App() {
  
   return (
@@ -10,8 +14,8 @@ function App() {
       <LeapYear year={1998}/>
       <LeapYear year={1900}/>
       <LeapYear year={2008}/>*/}
-      
-      <PeopleTable title='Exemple !' />
+
+      <PeopleTable title='Exemple !' data={peopleData} />
 
    </div> 
   )
