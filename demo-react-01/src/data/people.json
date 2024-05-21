@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "firstname": "Homer",
+        "lastname": "Simpson",
+        "age": 39
+    },
+    {
+        "id": 2,
+        "firstname": "Marge",
+        "lastname": "Simpson",
+        "age": 36
+    },
+    {
+        "id": 3,
+        "firstname": "Bart",
+        "lastname": "Simpson",
+        "age": 10
+    },
+    {
+        "id": 4,
+        "firstname": "Lisa",
+        "lastname": "Simpson",
+        "age": 8
+    },
+    {
+        "id": 5,
+        "firstname": "Maggie",
+        "lastname": "Simpson",
+        "age": 1
+    },
+    {
+        "id": 6,
+        "firstname": "Ned",
+        "lastname": "Flanders",
+        "age": 60
+    },
+    {
+        "id": 7,
+        "firstname": "Charles Montgomery",
+        "lastname": "Burns",
+        "age": 104
+    },
+    {
+        "id": 8,
+        "firstname": "Moe",
+        "lastname": "Szyslak",
+        "age": 45
+    },
+    {
+        "id": 9,
+        "firstname": "Milhouse",
+        "lastname": "Van Houten",
+        "age": 10
+    },
+    {
+        "id": 10,
+        "firstname": "Apu",
+        "lastname": "Nahasapeemapetilon",
+        "age": 40
+    }
+]
