@@ -1,0 +1,18 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2ch;
+    @media screen and (min-width) {
+        
+    }
+}
+
+.card {
+    padding: 0.3ch;
+    box-shadow: 0 0.1ch 0.2ch gray;
+    border-radius: 0.5ch;
+}
+
+.promo {
+    background-color: rgba(220, 20, 60, 0.05);
+}

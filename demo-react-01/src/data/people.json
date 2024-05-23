@@ -3,7 +3,7 @@
         "id": 1,
         "firstname": "Homer",
         "lastname": "Simpson",
-        "age": 39
+        "age": 40
     },
     {
         "id": 2,
@@ -33,7 +33,7 @@
         "id": 6,
         "firstname": "Ned",
         "lastname": "Flanders",
-        "age": 45
+        "age": 60
     },
     {
         "id": 7,

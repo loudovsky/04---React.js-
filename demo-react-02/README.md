@@ -1,9 +1,4 @@
-# Demo_01 - Intro à React
-
-## Dans cette démo :
- - Composant simple
- - Rendu conditionnel
- - Les collections
+# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

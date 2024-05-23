@@ -1,0 +1,19 @@
+//! Exemple de composant
+
+const Welcome = (props) => {
+    const { firstname, lastname } = props;
+     return(
+        <div>
+            <p>Formation Frontend ⛺</p>
+            <p>Bienvenue {firstname} {lastname}</p>
+        </div>
+    );
+};
+
+export default Welcome;
+
+//**************************/
+//? Déclaration du composant avec la syntaxe "function"
+// export default function Welcome() {
+//    
+//};

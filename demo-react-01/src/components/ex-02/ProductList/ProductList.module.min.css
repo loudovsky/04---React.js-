@@ -1,0 +1,1 @@
+.cards{display:grid;grid-template-columns:repeat(2, 1fr);gap:2ch}.card{padding:.3ch;box-shadow:0 .1ch .2ch gray;border-radius:.5ch}.promo{background-color:rgba(220,20,60,.05)}/*# sourceMappingURL=ProductList.module.min.css.map */

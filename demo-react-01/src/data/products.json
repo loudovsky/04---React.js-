@@ -1,0 +1,122 @@
+[
+  {
+      "id":  1,
+      "name": "Perceuse électrique",
+      "price": 79,
+      "promo": true
+  },
+  {
+      "id":  2,
+      "name": "Marteau",
+      "price": 15,
+      "promo": false
+  },
+  {
+      "id":  3,
+      "name": "Tournevis multi-embouts",
+      "price": 25,
+      "promo": true
+  },
+  {
+      "id":  4,
+"name": "Scie circulaire",
+      "price": 120,
+      "promo": false
+  },
+  {
+      "id":  5,
+"name": "Pince multiprise",
+      "price": 18,
+      "promo": true
+  },
+  {
+      "id":  6,
+"name": "Niveau à bulle",
+      "price": 12,
+      "promo": false
+  },
+  {
+      "id":  7,
+"name": "Clé à molette",
+      "price": 22,
+      "promo": true
+  },
+  {
+      "id":  8,
+"name": "Boîte à outils",
+      "price": 45,
+      "promo": false
+  },
+  {
+      "id":  9,
+"name": "Mètre ruban",
+      "price": 8,
+      "promo": true
+  },
+  {
+      "id":  10,
+"name": "Pistolet à colle",
+      "price": 20,
+      "promo": true
+  },
+  {
+      "id":  11,
+"name": "Visseuse sans fil",
+      "price": 65,
+      "promo": false
+  },
+  {
+      "id":  12,
+"name": "Ponceuse",
+      "price": 55,
+      "promo": true
+  },
+  {
+      "id":  13,
+"name": "Étau",
+      "price": 35,
+      "promo": false
+  },
+  {
+      "id":  14,
+"name": "Scie sauteuse",
+      "price": 99,
+      "promo": true
+  },
+  {
+      "id":  15,
+"name": "Clé Allen",
+      "price": 10,
+      "promo": false
+  },
+  {
+      "id":  16,
+"name": "Lime à métaux",
+      "price": 13,
+      "promo": true
+  },
+  {
+      "id":  17,
+"name": "Masque de protection",
+      "price": 7,
+      "promo": false
+  },
+  {
+      "id":  18,
+"name": "Gants de travail",
+      "price": 12,
+      "promo": true
+  },
+  {
+      "id":  19,
+"name": "Casque anti-bruit",
+      "price": 25,
+      "promo": true
+  },
+  {
+      "id":  20,
+"name": "Pied de biche",
+      "price": 30,
+      "promo": false
+  }
+]
