@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    height: 5rem;
+    border-bottom: 0.1ch crimson solid;
+    width: 100vw;
+    align-items: centerstyle;
+    gap : 2ch;
+    padding: 1ch
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: 600;
+    align-self: center;
+}
