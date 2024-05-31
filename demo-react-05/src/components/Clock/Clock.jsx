@@ -12,6 +12,7 @@ const Clock = () => {
         const timeoutId = setTimeout(() => {
             setDate(new Date())
         }, 200);
+        // on met un setTimeout toutes les 200 milisecondes pour que les secondes s'écoulent à l'écran
 
         //* Effet de nettoyage
         return(() => {
@@ -24,7 +25,7 @@ const Clock = () => {
      // Render de l'horloge
     return (
         <>
-        <p>{hours} : {minutes} : {seconds}</p>
+        <p>Il est {hours} : {minutes} : {seconds}</p>
         </>
     )
 };

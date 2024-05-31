@@ -1,0 +1,40 @@
++-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+  
+     		     VITE.JS
++-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+
+
+Permet de créer rapidement un environnement de développement et ensuite générer ce qu'on va mettre en production
+
+
+Développement (codage, ...) >< production (mise en ligne de ce qu'on a développé)
+
+
+HMR = Hot Module Replacement
+=> un peu comme "Go Live", affichage en simultané des chgmts apporté à notre travail (+ rapide que Go Live, permet d'afficher nvl url sur un autre appareil
+connecté sur le mm réseau wifi => permet d'afficher résultat du travail sur un Smartphone ou une tablette )
+
+Pour installer vite.js, il faut d'abord installer un "node packet manager" (node.js)
+=> ouvrir TERMINAL
+=> pour voir si npm est installé, simplement taper 'npm' dans le dossier dans lequel on se trouve
+(si pas de réponse, cela veut dire que node.js n'est pas installé. Installation de node inclut la fonction NPM)
+
+=> choisir vanilla et donner nom au project
+=> se placer dans [vite-project] et taper npm i puis npm run dev 
+=> un lien apparait, cliquer dessus
+=> ouvrir dossier [vite-project] dans vscode, on a tout un paquet de dossiers et fichiers déjà connus pour la plupart (index.html, style.css, etc)
+   fonctionne un peu comme "Go Live" mais en plus puissant
+
+package.json
+
+
+counter.js => importé dans main.js en écrivant la ligne de code suivante `import { setupCounter } from './counter.js'`
+	
+	=> on saucissone notre fichier js en plusieurs éléments contenant chacun une fonction js
+
+
+npm run dev -- --host : génère un url exploitable sur smartphone connecté au réseau
+
+CTRL + C (cmd dans Terminal) : STOP le HMR
+
+Quand on a fini travail et qu'on est content du résultat, taper 'npm build'
+=> compile tout dans dossier 'dist'
+=> on n'a plus qu'à copier ce dossier 'dist' dans un hébergeur pour mettre en ligne le site web

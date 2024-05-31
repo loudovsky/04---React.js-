@@ -11,7 +11,7 @@ const GuestApp = () => {
 
     //! Effet pour modifier le title du site
     //*  => Afficher le nombre d'invités
-    //* L'effet se déclanche uniquement quand le nombre d'invités change
+    //* L'effet se déclenche uniquement quand le nombre d'invités change
     //* Si un autre state, cela n'aura pas d'impact
     
     useEffect(
@@ -21,9 +21,10 @@ const GuestApp = () => {
 
         //Modification du DOM
         document.title = `Invités : ${guests.length}`
-    }, 
-    // La dépendance de l'effet
-    [guests.lenght])
+        }, 
+        // La dépendance de l'effet
+        [guests.length]
+    )
 
     //! Gestion de l'ajout des invités
     const handleAddGuest = (data) => {
@@ -59,5 +60,3 @@ const GuestApp = () => {
 };
 
 export default GuestApp;
-
-
